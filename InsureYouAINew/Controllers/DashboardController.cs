@@ -6,6 +6,8 @@ namespace InsureYouAINew.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.ControllerName = "Dashboard";
+            ViewBag.PageName = "Hızlı Bakış Tabloları & Grafikler ve İstatistikler";
             return View();
         }
     }
